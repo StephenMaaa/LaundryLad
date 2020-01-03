@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC11833623BDFC3D00D0584C /* UniversityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11833523BDFC3D00D0584C /* UniversityTableViewController.swift */; };
+		DC11833823BE081F00D0584C /* BuildingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11833723BE081F00D0584C /* BuildingTableViewCell.swift */; };
+		DC11833C23BE0F7700D0584C /* BuildingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11833B23BE0F7700D0584C /* BuildingTableViewController.swift */; };
+		DC5F89AE23BF586A00475BBB /* MachineCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F89AD23BF586A00475BBB /* MachineCollectionViewCell.swift */; };
+		DC5F89B023BF58DA00475BBB /* MachineCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F89AF23BF58DA00475BBB /* MachineCollectionViewController.swift */; };
+		DCCA187323BDF7F1004BE2FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA187223BDF7F1004BE2FF /* AppDelegate.swift */; };
+		DCCA187523BDF7F1004BE2FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA187423BDF7F1004BE2FF /* SceneDelegate.swift */; };
+		DCCA187723BDF7F1004BE2FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA187623BDF7F1004BE2FF /* ViewController.swift */; };
+		DCCA187A23BDF7F1004BE2FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCA187823BDF7F1004BE2FF /* Main.storyboard */; };
+		DCCA187C23BDF7F3004BE2FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCA187B23BDF7F3004BE2FF /* Assets.xcassets */; };
+		DCCA187F23BDF7F3004BE2FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCA187D23BDF7F3004BE2FF /* LaunchScreen.storyboard */; };
+		DCCA188A23BDF7F4004BE2FF /* LaundryLadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA188923BDF7F4004BE2FF /* LaundryLadTests.swift */; };
+		DCCA189523BDF864004BE2FF /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA189423BDF864004BE2FF /* College.swift */; };
+		DCCA189723BDF87C004BE2FF /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA189623BDF87C004BE2FF /* Building.swift */; };
+		DCCA189923BDF88F004BE2FF /* Machine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA189823BDF88F004BE2FF /* Machine.swift */; };
+		DCCA189D23BDF90C004BE2FF /* CollegeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA189C23BDF90C004BE2FF /* CollegeTableViewCell.swift */; };
+		F1FF07F714FC6E56CC398C46 /* libPods-LaundryLad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DF7E1241668FC312EB1FE5 /* libPods-LaundryLad.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCCA188623BDF7F4004BE2FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCCA186723BDF7F1004BE2FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCCA186E23BDF7F1004BE2FF;
+			remoteInfo = LaundryLad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45B7BBE64018EBA1DD9811F6 /* Pods-LaundryLad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaundryLad.release.xcconfig"; path = "Target Support Files/Pods-LaundryLad/Pods-LaundryLad.release.xcconfig"; sourceTree = "<group>"; };
+		56DF7E1241668FC312EB1FE5 /* libPods-LaundryLad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LaundryLad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B62BD54713539E37BF90B7 /* Pods-LaundryLad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaundryLad.debug.xcconfig"; path = "Target Support Files/Pods-LaundryLad/Pods-LaundryLad.debug.xcconfig"; sourceTree = "<group>"; };
+		DC11833523BDFC3D00D0584C /* UniversityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UniversityTableViewController.swift; path = ../../../../stephen/Desktop/LaundryLad/LaundryLad/UniversityTableViewController.swift; sourceTree = "<group>"; };
+		DC11833723BE081F00D0584C /* BuildingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BuildingTableViewCell.swift; path = ../../../../stephen/Desktop/LaundryLad/LaundryLad/BuildingTableViewCell.swift; sourceTree = "<group>"; };
+		DC11833B23BE0F7700D0584C /* BuildingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingTableViewController.swift; sourceTree = "<group>"; };
+		DC5F89AD23BF586A00475BBB /* MachineCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MachineCollectionViewCell.swift; path = ../../../../stephen/Desktop/LaundryLad/LaundryLad/MachineCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC5F89AF23BF58DA00475BBB /* MachineCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MachineCollectionViewController.swift; path = ../../../../stephen/Desktop/LaundryLad/LaundryLad/MachineCollectionViewController.swift; sourceTree = "<group>"; };
+		DCCA186F23BDF7F1004BE2FF /* LaundryLad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaundryLad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCA187223BDF7F1004BE2FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCCA187423BDF7F1004BE2FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCCA187623BDF7F1004BE2FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCCA187923BDF7F1004BE2FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCCA187B23BDF7F3004BE2FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCCA187E23BDF7F3004BE2FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCCA188023BDF7F3004BE2FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCA188523BDF7F4004BE2FF /* LaundryLadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaundryLadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCA188923BDF7F4004BE2FF /* LaundryLadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryLadTests.swift; sourceTree = "<group>"; };
+		DCCA188B23BDF7F4004BE2FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCA189423BDF864004BE2FF /* College.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College.swift; sourceTree = "<group>"; };
+		DCCA189623BDF87C004BE2FF /* Building.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
+		DCCA189823BDF88F004BE2FF /* Machine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machine.swift; sourceTree = "<group>"; };
+		DCCA189C23BDF90C004BE2FF /* CollegeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollegeTableViewCell.swift; path = ../../../../stephen/Desktop/LaundryLad/LaundryLad/CollegeTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCCA186C23BDF7F1004BE2FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FF07F714FC6E56CC398C46 /* libPods-LaundryLad.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCA188223BDF7F4004BE2FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C20724D1D38758553D10F62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7B62BD54713539E37BF90B7 /* Pods-LaundryLad.debug.xcconfig */,
+				45B7BBE64018EBA1DD9811F6 /* Pods-LaundryLad.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6AF64D8EA7C04504DF5DDD8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56DF7E1241668FC312EB1FE5 /* libPods-LaundryLad.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCCA186623BDF7F1004BE2FF = {
+			isa = PBXGroup;
+			children = (
+				DCCA187123BDF7F1004BE2FF /* LaundryLad */,
+				DCCA188823BDF7F4004BE2FF /* LaundryLadTests */,
+				DCCA187023BDF7F1004BE2FF /* Products */,
+				3C20724D1D38758553D10F62 /* Pods */,
+				6AF64D8EA7C04504DF5DDD8C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCCA187023BDF7F1004BE2FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCCA186F23BDF7F1004BE2FF /* LaundryLad.app */,
+				DCCA188523BDF7F4004BE2FF /* LaundryLadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCCA187123BDF7F1004BE2FF /* LaundryLad */ = {
+			isa = PBXGroup;
+			children = (
+				DCCA187223BDF7F1004BE2FF /* AppDelegate.swift */,
+				DCCA187423BDF7F1004BE2FF /* SceneDelegate.swift */,
+				DCCA187623BDF7F1004BE2FF /* ViewController.swift */,
+				DCCA189C23BDF90C004BE2FF /* CollegeTableViewCell.swift */,
+				DC11833723BE081F00D0584C /* BuildingTableViewCell.swift */,
+				DC5F89AD23BF586A00475BBB /* MachineCollectionViewCell.swift */,
+				DC11833523BDFC3D00D0584C /* UniversityTableViewController.swift */,
+				DC11833B23BE0F7700D0584C /* BuildingTableViewController.swift */,
+				DC5F89AF23BF58DA00475BBB /* MachineCollectionViewController.swift */,
+				DCCA189423BDF864004BE2FF /* College.swift */,
+				DCCA189623BDF87C004BE2FF /* Building.swift */,
+				DCCA189823BDF88F004BE2FF /* Machine.swift */,
+				DCCA187B23BDF7F3004BE2FF /* Assets.xcassets */,
+				DCCA187823BDF7F1004BE2FF /* Main.storyboard */,
+				DCCA187D23BDF7F3004BE2FF /* LaunchScreen.storyboard */,
+				DCCA188023BDF7F3004BE2FF /* Info.plist */,
+			);
+			path = LaundryLad;
+			sourceTree = "<group>";
+		};
+		DCCA188823BDF7F4004BE2FF /* LaundryLadTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCCA188923BDF7F4004BE2FF /* LaundryLadTests.swift */,
+				DCCA188B23BDF7F4004BE2FF /* Info.plist */,
+			);
+			path = LaundryLadTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCCA186E23BDF7F1004BE2FF /* LaundryLad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCA188E23BDF7F4004BE2FF /* Build configuration list for PBXNativeTarget "LaundryLad" */;
+			buildPhases = (
+				0824C1D9E9DD187719BF9520 /* [CP] Check Pods Manifest.lock */,
+				DCCA186B23BDF7F1004BE2FF /* Sources */,
+				DCCA186C23BDF7F1004BE2FF /* Frameworks */,
+				DCCA186D23BDF7F1004BE2FF /* Resources */,
+				C28710376D5DE81D6A6A2D16 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaundryLad;
+			productName = LaundryLad;
+			productReference = DCCA186F23BDF7F1004BE2FF /* LaundryLad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCCA188423BDF7F4004BE2FF /* LaundryLadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCA189123BDF7F4004BE2FF /* Build configuration list for PBXNativeTarget "LaundryLadTests" */;
+			buildPhases = (
+				DCCA188123BDF7F4004BE2FF /* Sources */,
+				DCCA188223BDF7F4004BE2FF /* Frameworks */,
+				DCCA188323BDF7F4004BE2FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCCA188723BDF7F4004BE2FF /* PBXTargetDependency */,
+			);
+			name = LaundryLadTests;
+			productName = LaundryLadTests;
+			productReference = DCCA188523BDF7F4004BE2FF /* LaundryLadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCCA186723BDF7F1004BE2FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Stephen Ma";
+				TargetAttributes = {
+					DCCA186E23BDF7F1004BE2FF = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					DCCA188423BDF7F4004BE2FF = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = DCCA186E23BDF7F1004BE2FF;
+					};
+				};
+			};
+			buildConfigurationList = DCCA186A23BDF7F1004BE2FF /* Build configuration list for PBXProject "LaundryLad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCCA186623BDF7F1004BE2FF;
+			productRefGroup = DCCA187023BDF7F1004BE2FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCCA186E23BDF7F1004BE2FF /* LaundryLad */,
+				DCCA188423BDF7F4004BE2FF /* LaundryLadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCCA186D23BDF7F1004BE2FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCA187F23BDF7F3004BE2FF /* LaunchScreen.storyboard in Resources */,
+				DCCA187C23BDF7F3004BE2FF /* Assets.xcassets in Resources */,
+				DCCA187A23BDF7F1004BE2FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCA188323BDF7F4004BE2FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0824C1D9E9DD187719BF9520 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaundryLad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C28710376D5DE81D6A6A2D16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaundryLad/Pods-LaundryLad-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaundryLad/Pods-LaundryLad-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LaundryLad/Pods-LaundryLad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCCA186B23BDF7F1004BE2FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCA187723BDF7F1004BE2FF /* ViewController.swift in Sources */,
+				DC11833823BE081F00D0584C /* BuildingTableViewCell.swift in Sources */,
+				DC5F89AE23BF586A00475BBB /* MachineCollectionViewCell.swift in Sources */,
+				DCCA187323BDF7F1004BE2FF /* AppDelegate.swift in Sources */,
+				DC5F89B023BF58DA00475BBB /* MachineCollectionViewController.swift in Sources */,
+				DCCA189D23BDF90C004BE2FF /* CollegeTableViewCell.swift in Sources */,
+				DCCA189723BDF87C004BE2FF /* Building.swift in Sources */,
+				DCCA187523BDF7F1004BE2FF /* SceneDelegate.swift in Sources */,
+				DCCA189523BDF864004BE2FF /* College.swift in Sources */,
+				DC11833C23BE0F7700D0584C /* BuildingTableViewController.swift in Sources */,
+				DCCA189923BDF88F004BE2FF /* Machine.swift in Sources */,
+				DC11833623BDFC3D00D0584C /* UniversityTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCA188123BDF7F4004BE2FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCA188A23BDF7F4004BE2FF /* LaundryLadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCCA188723BDF7F4004BE2FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCCA186E23BDF7F1004BE2FF /* LaundryLad */;
+			targetProxy = DCCA188623BDF7F4004BE2FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCCA187823BDF7F1004BE2FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCA187923BDF7F1004BE2FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCCA187D23BDF7F3004BE2FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCA187E23BDF7F3004BE2FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCCA188C23BDF7F4004BE2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCCA188D23BDF7F4004BE2FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCCA188F23BDF7F4004BE2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B62BD54713539E37BF90B7 /* Pods-LaundryLad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaundryLad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LaundryLad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCCA189023BDF7F4004BE2FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B7BBE64018EBA1DD9811F6 /* Pods-LaundryLad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaundryLad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LaundryLad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCCA189223BDF7F4004BE2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaundryLadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LaundryLadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaundryLad.app/LaundryLad";
+			};
+			name = Debug;
+		};
+		DCCA189323BDF7F4004BE2FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaundryLadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LaundryLadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaundryLad.app/LaundryLad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCCA186A23BDF7F1004BE2FF /* Build configuration list for PBXProject "LaundryLad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCA188C23BDF7F4004BE2FF /* Debug */,
+				DCCA188D23BDF7F4004BE2FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCCA188E23BDF7F4004BE2FF /* Build configuration list for PBXNativeTarget "LaundryLad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCA188F23BDF7F4004BE2FF /* Debug */,
+				DCCA189023BDF7F4004BE2FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCCA189123BDF7F4004BE2FF /* Build configuration list for PBXNativeTarget "LaundryLadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCA189223BDF7F4004BE2FF /* Debug */,
+				DCCA189323BDF7F4004BE2FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCCA186723BDF7F1004BE2FF /* Project object */;
+}
