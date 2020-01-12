@@ -11,13 +11,13 @@ import UIKit
 class College {
     
     //MARK: Properties
-    var buildings = [Building]()
+    //var buildings = [Building]()
     var logo: UIImage?
     var name: String
     
     //MARK: Initialization
-    init(name: String, buildings: [Building], logo: UIImage?) {
-        self.buildings = buildings
+    init(name: String, logo: UIImage?) {
+        //self.buildings = buildings
         self.logo = logo
         self.name = name
     }

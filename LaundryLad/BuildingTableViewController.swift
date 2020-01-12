@@ -7,16 +7,28 @@
 //
 
 import UIKit
+import Firebase
 
 class BuildingTableViewController: UITableViewController {
 
     //MARK: Properties
+    let buildingRef = Database.database().reference(withPath: "college")
     var collegeName: String = ""
     var buildings = [Building]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        buildingRef.child(collegeName).child("building").observe(.value, with: {snapshot in
+            for building in snapshot.children {
+                let buildingSnapshot = building as! DataSnapshot
+                let name = buildingSnapshot.key
+                let value = buildingSnapshot.value as! NSDictionary
+                let location = value["location"] as! String
+                self.buildings.append(Building(name: name, location: location))
+            }
+            self.tableView.reloadData()
+        })
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -121,7 +133,8 @@ class BuildingTableViewController: UITableViewController {
             }
             
             let building = buildings[selectedIndex.row]
-            destinationController.machines = building.machines
+            destinationController.collegeName = collegeName
+            destinationController.buildingName = building.name
         default:
             fatalError("Unexpected segue")
         }

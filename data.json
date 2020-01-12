@@ -1,0 +1,1468 @@
+{
+  "college" : {
+    "ERC" : {
+      "building" : {
+        "Kathmandu East" : {
+          "location" : "32.884960, -117.241889",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Student Activity Center" : {
+          "location" : "32.886095, -117.242051",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        }
+      }
+    },
+    "Marshall" : {
+      "building" : {
+        "Building J Uppers" : {
+          "location" : "32.883068, -117.241828",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Buildings P" : {
+          "location" : "32.883492, -117.243402",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Buildings Q" : {
+          "location" : "32.883535, -117.242893",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Buildings V" : {
+          "location" : "32.883006, -117.243373",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Fireside Lounge" : {
+          "location" : "32.882170, -117.238766",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        }
+      }
+    },
+    "Muir" : {
+      "building" : {
+        "Muir Residence Hall" : {
+          "location" : "32.878692, -117.243267",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Tenaya Hall" : {
+          "location" : "32.879428, -117.242989",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Tioga Hall" : {
+          "location" : "32.879053, -117.243363",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        }
+      }
+    },
+    "Revelle" : {
+      "building" : {
+        "Argo Hall" : {
+          "location" : "32.874508, -117.241642",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Atlantis Hall" : {
+          "location" : "32.873871, -117.242443",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Beagle Hall" : {
+          "location" : "32.874119, -117.242605",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Blake Hall" : {
+          "location" : "32.874969, -117.241691",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Challenger Hall" : {
+          "location" : "32.874143, -117.242328",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Discovery Hall" : {
+          "location" : "32.874098, -117.241862",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Galathea Hall" : {
+          "location" : "32.873884, -117.241654",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Meteor Hall" : {
+          "location" : "32.873808, -117.241946",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        }
+      }
+    },
+    "Sixth" : {
+      "building" : {
+        "International House 400" : {
+          "location" : "32.878894, -117.229946",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Matthews Apartments Building 712" : {
+          "location" : "32.878732, -117.230814",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Pepper Canyon Apartments 701" : {
+          "location" : "32.877878, -117.232883",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Pepper Canyon Apartments 701a" : {
+          "location" : "32.877878, -117.232883",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Plaza (Pepper)" : {
+          "location" : "32.884153, -117.232144",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        }
+      }
+    },
+    "Warren" : {
+      "building" : {
+        "Bates Hall" : {
+          "location" : "32.883962, -117.232148",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Black Hall" : {
+          "location" : "32.882087, -117.232680",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Brennan Hall" : {
+          "location" : "32.882970, -117.232922",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Brown Hall" : {
+          "location" : "32.883471, -117.232238",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Douglas Hall" : {
+          "location" : "32.883373, -117.232908",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Frankfurter Hall" : {
+          "location" : "32.884641, -117.232928",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Goldberg Hall" : {
+          "location" : "32.883076, -117.233834",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Harlan Hall" : {
+          "location" : "32.884805, -117.232299",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        },
+        "Stewart Hall" : {
+          "location" : "32.884179, -117.232475",
+          "machines" : {
+            "Dryer 10" : {
+              "label" : 10,
+              "status" : "Available"
+            },
+            "Dryer 5" : {
+              "label" : 5,
+              "status" : "Available"
+            },
+            "Dryer 6" : {
+              "label" : 6,
+              "status" : "Working"
+            },
+            "Dryer 7" : {
+              "label" : 7,
+              "status" : "Working"
+            },
+            "Dryer 8" : {
+              "label" : 8,
+              "status" : "Working"
+            },
+            "Dryer 9" : {
+              "label" : 9,
+              "status" : "Working"
+            },
+            "Washer 1" : {
+              "label" : 1,
+              "status" : "Available"
+            },
+            "Washer 2" : {
+              "label" : 2,
+              "status" : "Working"
+            },
+            "Washer 3" : {
+              "label" : 3,
+              "status" : "Available"
+            },
+            "Washer 4" : {
+              "label" : 4,
+              "status" : "Available"
+            }
+          }
+        }
+      }
+    }
+  }
+}

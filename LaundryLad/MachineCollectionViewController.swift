@@ -7,17 +7,34 @@
 //
 
 import UIKit
+import Firebase
 
 private let reuseIdentifier = "MachineCollectionViewCell"
 
 class MachineCollectionViewController: UICollectionViewController {
 
     //MARK: Properties
+    let machineRef = Database.database().reference(withPath: "college")
+    var collegeName: String = ""
+    var buildingName: String = ""
     var machines = [Machine]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        //retrieve data from Firebase database
+    machineRef.child(collegeName).child("building").child(buildingName).child("machines").queryOrdered(byChild: "label").observe(.value, with: {snapshot in
+            for machine in snapshot.children {
+                let machineSnapshot = machine as! DataSnapshot
+                let name = machineSnapshot.key
+                let index = name.firstIndex(of: " ")
+                let typeIndex = name.index(before: index!)
+                let type = name[...typeIndex]
+                let dic = machineSnapshot.value as! NSDictionary
+                self.machines.append(Machine(type: String(type), label: dic.value(forKey: "label") as! Int, status: dic.value(forKey: "status") as! String))
+            }
+            self.collectionView.reloadData()
+        })
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 

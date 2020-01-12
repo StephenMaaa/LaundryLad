@@ -11,14 +11,14 @@ import UIKit
 class Building {
     
     //MARK: Properties
-    var machines = [Machine]()
+    //var machines = [Machine]()
     var location: String
     var name: String
     
     //MARK: Initialization
-    init(name: String, machines: [Machine], location: String) {
+    init(name: String, location: String) {
         self.name = name
-        self.machines = machines
+        //self.machines = machines
         self.location = location
     }
 }

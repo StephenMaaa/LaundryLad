@@ -12,6 +12,12 @@
 		DC11833C23BE0F7700D0584C /* BuildingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11833B23BE0F7700D0584C /* BuildingTableViewController.swift */; };
 		DC5F89AE23BF586A00475BBB /* MachineCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F89AD23BF586A00475BBB /* MachineCollectionViewCell.swift */; };
 		DC5F89B023BF58DA00475BBB /* MachineCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F89AF23BF58DA00475BBB /* MachineCollectionViewController.swift */; };
+		DC5F89B223C029AE00475BBB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC5F89B123C029AE00475BBB /* GoogleService-Info.plist */; };
+		DC5F89B323C029AE00475BBB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC5F89B123C029AE00475BBB /* GoogleService-Info.plist */; };
+		DCA2423023C6452800529A76 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA2422F23C6452800529A76 /* SignUpViewController.swift */; };
+		DCA2423223C64FB200529A76 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA2423123C64FB200529A76 /* LoginViewController.swift */; };
+		DCA2423423CAFC8900529A76 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA2423323CAFC8900529A76 /* InitialViewController.swift */; };
+		DCA2423623CAFCA000529A76 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA2423523CAFCA000529A76 /* UserViewController.swift */; };
 		DCCA187323BDF7F1004BE2FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA187223BDF7F1004BE2FF /* AppDelegate.swift */; };
 		DCCA187523BDF7F1004BE2FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA187423BDF7F1004BE2FF /* SceneDelegate.swift */; };
 		DCCA187723BDF7F1004BE2FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA187623BDF7F1004BE2FF /* ViewController.swift */; };
@@ -45,6 +51,11 @@
 		DC11833B23BE0F7700D0584C /* BuildingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingTableViewController.swift; sourceTree = "<group>"; };
 		DC5F89AD23BF586A00475BBB /* MachineCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MachineCollectionViewCell.swift; path = ../../../../stephen/Desktop/LaundryLad/LaundryLad/MachineCollectionViewCell.swift; sourceTree = "<group>"; };
 		DC5F89AF23BF58DA00475BBB /* MachineCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MachineCollectionViewController.swift; path = ../../../../stephen/Desktop/LaundryLad/LaundryLad/MachineCollectionViewController.swift; sourceTree = "<group>"; };
+		DC5F89B123C029AE00475BBB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../stephen/Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCA2422F23C6452800529A76 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../../../../stephen/Desktop/LaundryLad/LaundryLad/SignUpViewController.swift; sourceTree = "<group>"; };
+		DCA2423123C64FB200529A76 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../../stephen/Desktop/LaundryLad/LaundryLad/LoginViewController.swift; sourceTree = "<group>"; };
+		DCA2423323CAFC8900529A76 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InitialViewController.swift; path = ../../../../stephen/Desktop/LaundryLad/LaundryLad/InitialViewController.swift; sourceTree = "<group>"; };
+		DCA2423523CAFCA000529A76 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserViewController.swift; path = ../../../../stephen/Desktop/LaundryLad/LaundryLad/UserViewController.swift; sourceTree = "<group>"; };
 		DCCA186F23BDF7F1004BE2FF /* LaundryLad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaundryLad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCA187223BDF7F1004BE2FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCCA187423BDF7F1004BE2FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +141,10 @@
 				DC11833523BDFC3D00D0584C /* UniversityTableViewController.swift */,
 				DC11833B23BE0F7700D0584C /* BuildingTableViewController.swift */,
 				DC5F89AF23BF58DA00475BBB /* MachineCollectionViewController.swift */,
+				DCA2422F23C6452800529A76 /* SignUpViewController.swift */,
+				DCA2423123C64FB200529A76 /* LoginViewController.swift */,
+				DCA2423323CAFC8900529A76 /* InitialViewController.swift */,
+				DCA2423523CAFCA000529A76 /* UserViewController.swift */,
 				DCCA189423BDF864004BE2FF /* College.swift */,
 				DCCA189623BDF87C004BE2FF /* Building.swift */,
 				DCCA189823BDF88F004BE2FF /* Machine.swift */,
@@ -137,6 +152,7 @@
 				DCCA187823BDF7F1004BE2FF /* Main.storyboard */,
 				DCCA187D23BDF7F3004BE2FF /* LaunchScreen.storyboard */,
 				DCCA188023BDF7F3004BE2FF /* Info.plist */,
+				DC5F89B123C029AE00475BBB /* GoogleService-Info.plist */,
 			);
 			path = LaundryLad;
 			sourceTree = "<group>";
@@ -234,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCCA187F23BDF7F3004BE2FF /* LaunchScreen.storyboard in Resources */,
+				DC5F89B223C029AE00475BBB /* GoogleService-Info.plist in Resources */,
 				DCCA187C23BDF7F3004BE2FF /* Assets.xcassets in Resources */,
 				DCCA187A23BDF7F1004BE2FF /* Main.storyboard in Resources */,
 			);
@@ -243,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5F89B323C029AE00475BBB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,11 +313,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA2423423CAFC8900529A76 /* InitialViewController.swift in Sources */,
+				DCA2423623CAFCA000529A76 /* UserViewController.swift in Sources */,
+				DCA2423223C64FB200529A76 /* LoginViewController.swift in Sources */,
 				DCCA187723BDF7F1004BE2FF /* ViewController.swift in Sources */,
 				DC11833823BE081F00D0584C /* BuildingTableViewCell.swift in Sources */,
 				DC5F89AE23BF586A00475BBB /* MachineCollectionViewCell.swift in Sources */,
 				DCCA187323BDF7F1004BE2FF /* AppDelegate.swift in Sources */,
 				DC5F89B023BF58DA00475BBB /* MachineCollectionViewController.swift in Sources */,
+				DCA2423023C6452800529A76 /* SignUpViewController.swift in Sources */,
 				DCCA189D23BDF90C004BE2FF /* CollegeTableViewCell.swift in Sources */,
 				DCCA189723BDF87C004BE2FF /* Building.swift in Sources */,
 				DCCA187523BDF7F1004BE2FF /* SceneDelegate.swift in Sources */,
@@ -468,6 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7H7N2Y93X;
 				INFOPLIST_FILE = LaundryLad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -486,6 +509,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7H7N2Y93X;
 				INFOPLIST_FILE = LaundryLad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
